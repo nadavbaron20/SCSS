@@ -1,0 +1,17 @@
+@use '_colorMix.scss';
+
+@mixin colorS($color:black) {
+    color: $color;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.form {
+    &_error {
+      @include colorS($color:red);   
+    }
+    &_success {
+      @include colorS($color:green);
+    }
+}

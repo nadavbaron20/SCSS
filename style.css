@@ -1,0 +1,35 @@
+.form_container {
+  display: flex;
+}
+.form_input {
+  border-radius: 10px;
+  height: 30px;
+  margin-right: 15px;
+  padding: 5px;
+  outline-color: transparent;
+  border-color: yellow;
+}
+.form_btn {
+  border-radius: 10px;
+  color: white;
+  background-color: blue;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.form_btn:hover {
+  background-color: green;
+}
+
+.form_error {
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+}
+.form_success {
+  color: green;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
